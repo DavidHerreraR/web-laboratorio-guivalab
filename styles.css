@@ -886,9 +886,21 @@ h3 {
 }
 
 .proof-stats strong {
-  display: block;
   font-size: 2.2rem;
   line-height: 1;
+}
+
+.proof-stat-value {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.proof-stat-icon {
+  width: 34px;
+  height: 34px;
+  flex: 0 0 34px;
+  fill: currentColor;
 }
 
 .proof-stats span {
